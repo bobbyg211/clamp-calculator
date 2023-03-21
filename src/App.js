@@ -14,8 +14,8 @@ import {
 export default function App() {
   const [tooltip, setTooltip] = useState(false);
   const [vals, setVals] = useState({
-    minViewWidthPx: 1280,
-    maxViewWidthPx: 1920,
+    minViewWidthPx: 480,
+    maxViewWidthPx: 1440,
     minElSizePx: 0,
     maxElSizePx: 0,
   });
